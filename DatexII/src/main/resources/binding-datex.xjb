@@ -1,0 +1,14 @@
+<jxb:bindings xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+  xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  version="1.0" jxb:extensionBindingPrefixes="xjc">
+
+  <jxb:bindings>
+    <jxb:globalBindings underscoreBinding="asCharInWord" collectionType="java.util.ArrayList">
+      <xjc:simple/>
+      <jxb:javaType name="Long" xmlType="xs:integer"/>
+      <jxb:javaType name="Long" xmlType="xs:nonNegativeInteger"/>
+      <xjc:javaType adapter="io.github.threetenjaxb.core.InstantXmlAdapter"
+        name="java.time.Instant" xmlType="xs:dateTime"/>
+    </jxb:globalBindings>
+  </jxb:bindings>
+</jxb:bindings>

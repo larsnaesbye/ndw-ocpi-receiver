@@ -1,0 +1,108 @@
+{
+  "id": "d6fc5080-74e9-40c5-9719-59fad1a87900",
+  "type": "ON_STREET",
+  "name": "Noordwal 6",
+  "address": "Noordwal 6",
+  "city": "'s-Hertogenbosch",
+  "country": "NLD",
+  "coordinates": {
+    "latitude": "51.692144",
+    "longitude": "5.309348"
+  },
+  "evses": [
+    {
+      "uid": "be8c4660-603e-4ae8-8942-5cffa79247d8",
+      "status": "AVAILABLE",
+      "status_schedule": null,
+      "capabilities": [
+        "REMOTE_START_STOP_CAPABLE",
+        "RFID_READER"
+      ],
+      "connectors": [
+        {
+          "id": "17d639f4-cfbb-496d-b083-bd71cb9178c3",
+          "standard": "IEC_62196_T2",
+          "format": "SOCKET",
+          "power_type": "AC_3_PHASE",
+          "voltage": 230,
+          "amperage": 16,
+          "tariff_id": "3",
+          "terms_and_conditions": null,
+          "last_updated": "2021-11-13T16:10:16Z"
+        }
+      ],
+      "floor_level": null,
+      "coordinates": null,
+      "physical_reference": "ALF-0003812_2",
+      "directions": null,
+      "parking_restrictions": null,
+      "images": null,
+      "last_updated": "2021-11-13T16:10:16Z"
+    },
+    {
+      "uid": "4c34bfb8-453c-4f4f-82da-f53f1317c8f2",
+      "status": "AVAILABLE",
+      "status_schedule": null,
+      "capabilities": [
+        "REMOTE_START_STOP_CAPABLE",
+        "RFID_READER"
+      ],
+      "connectors": [
+        {
+          "id": "08190249-7fa2-492d-bcf5-fcf371d5b7ea",
+          "standard": "IEC_62196_T2",
+          "format": "SOCKET",
+          "power_type": "AC_3_PHASE",
+          "voltage": 230,
+          "amperage": 16,
+          "tariff_id": "3",
+          "terms_and_conditions": null,
+          "last_updated": "2021-11-13T16:10:16Z"
+        }
+      ],
+      "floor_level": null,
+      "coordinates": null,
+      "physical_reference": "ALF-0003812_1",
+      "directions": null,
+      "parking_restrictions": null,
+      "images": null,
+      "last_updated": "2021-11-13T16:10:16Z"
+    }
+  ],
+  "directions": null,
+  "operator": {
+    "name": "Test Supplier",
+    "website": "https://test-supplier.nl",
+    "logo": null
+  },
+  "suboperator": {
+    "name": "Test Supplier sub",
+    "website": "https://test-supplier-sub.nl",
+    "logo": null
+  },
+  "owner": null,
+  "facilities": null,
+  "images": null,
+  "postal_code": "5211RM",
+  "related_locations": null,
+  "time_zone": "NL",
+  "opening_times": null,
+  "charging_when_closed": false,
+  "energy_mix": {
+    "is_green_energy": false,
+    "energy_sources": [
+      { "source": "GENERAL_GREEN", "percentage": 35.9 },
+      { "source": "GAS", "percentage": 6.3 },
+      { "source": "COAL", "percentage": 33.2 },
+      { "source": "GENERAL_FOSSIL", "percentage": 2.9 },
+      { "source": "NUCLEAR", "percentage": 21.7 }
+    ],
+    "environ_impact": [
+      { "source": "NUCLEAR_WASTE", "amount": 0.0006 },
+      { "source": "CARBON_DIOXIDE", "amount": 372 }
+    ],
+    "supplier_name": "E.ON Energy Deutschland",
+    "energy_product_name": "E.ON DirektStrom eco"
+  },
+  "last_updated": "2021-11-13T16:10:16Z"
+}

@@ -1,0 +1,211 @@
+{
+  "content": [
+    {
+      "id": "d6fc5080-74e9-40c5-9719-59fad1a87900",
+      "type": "ON_STREET",
+      "name": null,
+      "address": "Noordwal 6",
+      "city": "'s-Hertogenbosch",
+      "country": "NLD",
+      "coordinates": {
+        "latitude": "51.692144",
+        "longitude": "5.309348"
+      },
+      "evses": [
+        {
+          "uid": "be8c4660-603e-4ae8-8942-5cffa79247d8",
+          "evse_id": "NL*NUO*EALF*0003812*2",
+          "status": "BLOCKED",
+          "status_schedule": null,
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "7351eff3-cbd8-42d7-b7fa-8075026358b7",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "voltage": 230,
+              "amperage": 16,
+              "tariff_id": "3",
+              "terms_and_conditions": null,
+              "last_updated": "2021-05-07T07:11:44Z"
+            }
+          ],
+          "floor_level": null,
+          "coordinates": null,
+          "physical_reference": "ALF-0003812_2",
+          "directions": null,
+          "parking_restrictions": null,
+          "images": null,
+          "last_updated": "2021-06-23T21:39:52Z"
+        },
+        {
+          "uid": "4c34bfb8-453c-4f4f-82da-f53f1317c8f2",
+          "evse_id": "NL*NUO*EALF*0003812*1",
+          "status": "CHARGING",
+          "status_schedule": null,
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "447ba298-ed42-4a4b-b8a5-e099cc8de460",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "voltage": 230,
+              "amperage": 16,
+              "tariff_id": "3",
+              "terms_and_conditions": null,
+              "last_updated": "2021-05-07T07:11:44Z"
+            }
+          ],
+          "floor_level": null,
+          "coordinates": null,
+          "physical_reference": "ALF-0003812_1",
+          "directions": null,
+          "parking_restrictions": null,
+          "images": null,
+          "last_updated": "2021-06-20T15:59:05Z"
+        }
+      ],
+      "directions": null,
+      "operator": {
+        "name": "Test Supplier",
+        "website": "https://test-supplier.nl",
+        "logo": null
+      },
+      "suboperator": null,
+      "owner": null,
+      "facilities": null,
+      "images": null,
+      "postal_code": "5211RM",
+      "related_locations": null,
+      "time_zone": null,
+      "opening_times": null,
+      "charging_when_closed": false,
+      "energy_mix": null,
+      "last_updated": "2021-06-23T21:39:52Z"
+    },
+    {
+      "id": "d1d24491-0bc5-48da-93d3-ad2a98f6a216",
+      "type": "ON_STREET",
+      "name": null,
+      "address": "Pelssingel 22",
+      "city": "'s-Hertogenbosch",
+      "country": "NLD",
+      "coordinates": {
+        "latitude": "51.692379",
+        "longitude": "5.310678"
+      },
+      "evses": [
+        {
+          "uid": "3cb795ca-d733-499c-8d8c-2810a367b74b",
+          "evse_id": "NL*NUO*EALF*0005115*2",
+          "status": "AVAILABLE",
+          "status_schedule": null,
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "0443df64-bd1c-4ff3-af2b-ffe540baf5a7",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "voltage": 230,
+              "amperage": 16,
+              "tariff_id": "3",
+              "terms_and_conditions": null,
+              "last_updated": "2021-06-29T06:50:02Z"
+            }
+          ],
+          "floor_level": null,
+          "coordinates": null,
+          "physical_reference": "ALF-0005115_2",
+          "directions": null,
+          "parking_restrictions": null,
+          "images": null,
+          "last_updated": "2021-06-29T06:50:02Z"
+        },
+        {
+          "uid": "a15393e6-d146-413a-9ba9-6f7a7d57ab52",
+          "evse_id": "NL*NUO*EALF*0005115*1",
+          "status": "AVAILABLE",
+          "status_schedule": null,
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "id": "66c4187e-56c9-41e3-ae6f-6dc845c86415",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "voltage": 230,
+              "amperage": 16,
+              "tariff_id": "3",
+              "terms_and_conditions": null,
+              "last_updated": "2021-06-29T06:50:02Z"
+            }
+          ],
+          "floor_level": null,
+          "coordinates": null,
+          "physical_reference": "ALF-0005115_1",
+          "directions": null,
+          "parking_restrictions": null,
+          "images": null,
+          "last_updated": "2021-06-29T06:50:02Z"
+        }
+      ],
+      "directions": null,
+      "operator": {
+        "name": "Test Supplier",
+        "website": "https://test-supplier.nl",
+        "logo": null
+      },
+      "suboperator": null,
+      "owner": null,
+      "facilities": null,
+      "images": null,
+      "postal_code": "5212 PA",
+      "related_locations": null,
+      "time_zone": null,
+      "opening_times": null,
+      "charging_when_closed": false,
+      "energy_mix": null,
+      "last_updated": "2021-06-29T06:50:02Z"
+    }
+  ],
+  "pageable": {
+    "sort": {
+      "sorted": true,
+      "unsorted": false,
+      "empty": false
+    },
+    "offset": 0,
+    "pageNumber": 1,
+    "pageSize": 2,
+    "paged": true,
+    "unpaged": false
+  },
+  "totalElements": 4,
+  "totalPages": 2,
+  "last": false,
+  "size": 2,
+  "number": 1,
+  "sort": {
+    "sorted": true,
+    "unsorted": false,
+    "empty": false
+  },
+  "first": true,
+  "numberOfElements": 2,
+  "empty": false
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3",
+  "currency": "EUR",
+  "tariff_alt_text": null,
+  "tariff_alt_url": null,
+  "elements": [
+    {
+      "price_components": [
+        {
+          "type": "ENERGY",
+          "price": 0.28,
+          "step_size": 1000
+        }
+      ],
+      "restrictions": null
+    }
+  ],
+  "energy_mix": null,
+  "last_updated": "2021-01-01T00:00:00Z"
+}
+

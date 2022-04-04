@@ -1,0 +1,15 @@
+<project>
+    <packaging>pom</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ndw-ocpi-receiver</artifactId>
+    <name>NCIS OCPI Receiver</name>
+    <groupId>nu.ndw.ncis</groupId>
+    <version>1.0.0</version>
+    <modules>
+        <module>DatexII</module>
+        <module>OCPI</module>
+        <module>ncis-core</module>
+        <module>ncis-integration-test-util</module>
+        <module>ncis-ci-o-cecs</module>
+    </modules>
+</project>

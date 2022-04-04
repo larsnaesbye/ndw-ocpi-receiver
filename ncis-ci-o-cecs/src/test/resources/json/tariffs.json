@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "currency": null,
+    "tariff_alt_text": null,
+    "tariff_alt_url": null,
+    "elements": [
+      {
+        "price_components": [
+          {
+            "type": "ENERGY",
+            "price": 0.18,
+            "step_size": 1000
+          }
+        ],
+        "restrictions": null
+      }
+    ],
+    "energy_mix": null,
+    "last_updated": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "2",
+    "currency": null,
+    "tariff_alt_text": null,
+    "tariff_alt_url": null,
+    "elements": [
+      {
+        "price_components": [
+          {
+            "type": "ENERGY",
+            "price": 0.27,
+            "step_size": 1000
+          }
+        ],
+        "restrictions": null
+      }
+    ],
+    "energy_mix": null,
+    "last_updated": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "3",
+    "currency": null,
+    "tariff_alt_text": null,
+    "tariff_alt_url": null,
+    "elements": [
+      {
+        "price_components": [
+          {
+            "type": "ENERGY",
+            "price": 0.28,
+            "step_size": 1000
+          }
+        ],
+        "restrictions": null
+      }
+    ],
+    "energy_mix": null,
+    "last_updated": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "4",
+    "currency": null,
+    "tariff_alt_text": null,
+    "tariff_alt_url": null,
+    "elements": [
+      {
+        "price_components": [
+          {
+            "type": "ENERGY",
+            "price": 0.2810,
+            "step_size": 1000
+          }
+        ],
+        "restrictions": null
+      }
+    ],
+    "energy_mix": null,
+    "last_updated": "2021-01-01T00:00:00Z"
+  },
+  {
+    "id": "5",
+    "currency": null,
+    "tariff_alt_text": null,
+    "tariff_alt_url": null,
+    "elements": [
+      {
+        "price_components": [
+          {
+            "type": "ENERGY",
+            "price": 0.46,
+            "step_size": 1000
+          }
+        ],
+        "restrictions": null
+      }
+    ],
+    "energy_mix": null,
+    "last_updated": "2021-01-01T00:00:00Z"
+  }
+]
