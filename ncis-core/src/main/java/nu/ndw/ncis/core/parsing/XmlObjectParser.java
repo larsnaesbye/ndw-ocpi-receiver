@@ -3,9 +3,9 @@ package nu.ndw.ncis.core.parsing;
 import nu.ndw.ncis.core.exception.NdwException;
 import nu.ndw.ncis.core.exception.NdwProcessingException;
 
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.JAXBIntrospector;
+import jakarta.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBIntrospector;
 import java.io.StringReader;
 import java.io.StringWriter;
 

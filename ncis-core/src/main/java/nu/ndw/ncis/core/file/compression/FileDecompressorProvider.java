@@ -3,7 +3,7 @@ package nu.ndw.ncis.core.file.compression;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 @Component
 @RequiredArgsConstructor

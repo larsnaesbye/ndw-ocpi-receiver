@@ -3,29 +3,29 @@ package nu.ndw.ncis.core.config.properties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.context.properties.ConstructorBinding;
+//import org.springframework.boot.context.properties.ConstructorBinding;
 import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotBlank;
 import java.util.Map;
 
 @ConfigurationProperties(prefix = "cloud-storage")
 @Validated
 @Getter
-@ConstructorBinding
+//@ConstructorBinding
 @AllArgsConstructor
 public class CloudStorageProperties {
     @Getter
     @Validated
     @AllArgsConstructor
     public static class ConnectionString {
-        @NotBlank
+        //@NotBlank
         private final String accountName;
 
-        @NotBlank
+        //@NotBlank
         private final String key;
 
-        @NotBlank
+        //@NotBlank
         private final String connectionString;
     }
 
@@ -33,10 +33,10 @@ public class CloudStorageProperties {
     @Validated
     @AllArgsConstructor
     public static class ContainerName {
-        @NotBlank
+        //@NotBlank
         private final String connectionStringId;
 
-        @NotBlank
+        //@NotBlank
         private final String containerName;
     }
 
